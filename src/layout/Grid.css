@@ -1,0 +1,9 @@
+.nasa-layout-grid {
+  padding: 5rem;
+  min-height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
+  grid: 1rem;
+}
